@@ -10,7 +10,6 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 app.use((req, res, next) => {
-app.use((req, res, next) => {
   // Allow unauthenticated endpoints
   if (req.path === '/health' || req.path === '/v1/models') {
     return next();
@@ -30,7 +29,6 @@ app.use((req, res, next) => {
 
   next();
 });
-
 
 const NIM_API_BASE = process.env.NIM_API_BASE || 'https://integrate.api.nvidia.com/v1';
 const NIM_API_KEY = process.env.NIM_API_KEY;
