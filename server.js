@@ -52,7 +52,7 @@ const MODEL_MAPPING = {
   'mistral': 'mistralai/mistral-large-3-675b-instruct-2512',
   'mistral-turbo': 'mistralai/mistral-medium-3.5-128b',
   'mistral-pro': 'mistralai/mistral-small-4-119b-2603',
-  'mistral-nemo': 'mistralai/mistral-nemotron'
+  'mistral-nemo': 'mistralai/mistral-nemotron',
   'google-light': 'google/gemma-4-31b-it',
   'google-lightest': 'google/gemma-2-2b-it',
   'google-lighter': 'google/gemma-3n-e4b-it',
