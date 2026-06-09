@@ -29,7 +29,7 @@ const VALIDATION_TIMEOUT_MS = 15000;
 if (SHOW_REASONING) console.log('[CONFIG] Reasoning display: ENABLED');
 if (ENABLE_THINKING_MODE) console.log('[CONFIG] Thinking mode: ENABLED');
 
-// ─── Config validation ───────────────────────────────────────────────────────
+// ─── Config validation ──────────────────────────────────────────────────────
 
 
 function validateConfig() {
