@@ -98,7 +98,6 @@ After deploying, you can set these in Railway's **Variables** tab:
 | `ENABLE_THINKING_MODE` | `true` | Sends thinking parameters to supported models |
 | `DISCORD_WEBHOOK_URL` | Webhook URL | Alerts you when models fail validation |
 | `SKIP_VALIDATION` | `true` | Disables startup model checks |
-| `REASONING_EFFORT` | `low`, `medium`, `high`, or `max` |	Controls DeepSeek V4 thinking depth (default: `high`)	|
 
 
 Set to `false` or remove to disable. Changes apply without redeploying.
